@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.success.alc4phase1"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:7:5-67
+14-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:7:22-64
+15
+16    <application
+16-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:9:5-33:19
+17        android:allowBackup="true"
+17-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] C:\Users\SuccessEmmanuel\.gradle\caches\transforms-2\files-2.1\c9abde3d00d5c35e349279d839666d3e\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@drawable/app_logo"
+20-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:11:9-42
+21        android:label="@string/app_name"
+21-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@drawable/app_logo"
+22-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:13:9-47
+23        android:supportsRtl="true"
+23-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:14:9-35
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity
+25-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:16:9-20:20
+26            android:name="com.success.alc4phase1.MyProfile"
+26-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:16:19-44
+27            android:label="@string/my_profile" >
+27-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:17:13-47
+28            <meta-data
+28-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:18:13-19:70
+29                android:name="parentActivity"
+29-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:18:24-53
+30                android:value="com.success.alc4phase1.MainActivity" />
+30-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:19:17-68
+31        </activity>
+32        <activity
+32-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:21:9-25:20
+33            android:name="com.success.alc4phase1.AboutALC"
+33-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:21:19-43
+34            android:label="@string/about_alc" >
+34-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:22:13-46
+35            <meta-data
+35-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:18:13-19:70
+36                android:name="parentActivity"
+36-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:18:24-53
+37                android:value="com.success.alc4phase1.MainActivity" />
+37-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:19:17-68
+38        </activity>
+39        <activity android:name="com.success.alc4phase1.MainActivity" >
+39-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:26:9-32:20
+39-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:26:19-47
+40            <intent-filter>
+40-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:27:13-31:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:28:17-69
+41-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:28:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:30:17-77
+43-->C:\Users\SuccessEmmanuel\AndroidStudioProjects\ALC4Phase1\app\src\main\AndroidManifest.xml:30:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->[com.squareup.picasso:picasso:2.71828] C:\Users\SuccessEmmanuel\.gradle\caches\transforms-2\files-2.1\8259b3487ff0c54aea0cf92658cb0944\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+48            android:name="com.squareup.picasso.PicassoProvider"
+48-->[com.squareup.picasso:picasso:2.71828] C:\Users\SuccessEmmanuel\.gradle\caches\transforms-2\files-2.1\8259b3487ff0c54aea0cf92658cb0944\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+49            android:authorities="com.success.alc4phase1.com.squareup.picasso"
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\SuccessEmmanuel\.gradle\caches\transforms-2\files-2.1\8259b3487ff0c54aea0cf92658cb0944\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+50            android:exported="false" />
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\SuccessEmmanuel\.gradle\caches\transforms-2\files-2.1\8259b3487ff0c54aea0cf92658cb0944\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+51    </application>
+52
+53</manifest>

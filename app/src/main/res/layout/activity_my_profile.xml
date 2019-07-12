@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="376dp"
+        android:layout_height="361dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="344dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:layout_marginEnd="@dimen/margin_dimen"
+        android:layout_marginRight="@dimen/margin_dimen"
+        android:layout_marginBottom="314dp"
+        android:gravity="center"
+        android:text="@string/ibrahim_emmanuel_success"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+    <TextView
+        android:id="@+id/trackTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="24dp"
+        android:text="@string/track"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+    <TextView
+        android:id="@+id/countryTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/country"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trackTxt" />
+
+    <TextView
+        android:id="@+id/track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="24dp"
+        android:text="@string/android"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toEndOf="@+id/trackTxt"
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/nigeria"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toEndOf="@+id/countryTxt"
+        app:layout_constraintTop_toBottomOf="@+id/track" />
+
+    <TextView
+        android:id="@+id/emailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/email"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryTxt" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/email_text"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toEndOf="@+id/emailTxt"
+        app:layout_constraintTop_toBottomOf="@+id/country" />
+
+    <TextView
+        android:id="@+id/phoneTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/phone_number"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
+
+    <TextView
+        android:id="@+id/slackTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/slack_username"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneTxt" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/phone"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toEndOf="@+id/phoneTxt"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/slcak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_dimen"
+        android:layout_marginLeft="@dimen/margin_dimen"
+        android:layout_marginTop="@dimen/margin_dimen"
+        android:text="@string/slack_name"
+        android:textSize="@dimen/size_dimen"
+        app:layout_constraintStart_toEndOf="@+id/slackTxt"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
