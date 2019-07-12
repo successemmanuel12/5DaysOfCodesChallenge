@@ -18,14 +18,16 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".MyProfile"
-            android:label="@string/my_profile">
+            android:label="@string/my_profile"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="parentActivity"
                 android:value="com.success.alc4phase1.MainActivity" />
         </activity>
         <activity
             android:name=".AboutALC"
-            android:label="@string/about_alc">
+            android:label="@string/about_alc"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="parentActivity"
                 android:value="com.success.alc4phase1.MainActivity" />
