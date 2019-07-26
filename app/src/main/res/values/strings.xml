@@ -10,8 +10,10 @@
     <string name="nigeria">Nigeria</string>
     <string name="email">Email:</string>
     <string name="email_text">successemmanuel12@gmail.com</string>
-    <string name="phone_number">Phone Number:</string>
-    <string name="slack_username">Slack Username:</string>
+    <string name="phone_number">Phone:</string>
+    <string name="slack_username">Slack:</string>
     <string name="slack_name">\@successemmanuel12</string>
     <string name="phone">+2348116411353</string>
+    <string name="profile_image">profile Image</string>
+    <string name="lost_connection">Oops Network Connection Failed..\\n please check Connection and try again..</string>
 </resources>

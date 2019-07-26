@@ -1,22 +1,22 @@
 package com.success.alc4phase1;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
-    private Button aboutBtn, profilebtn;
+    private Button aboutBtn, profileBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        aboutBtn = findViewById(R.id.aboutALC);
-        profilebtn = findViewById(R.id.profileBtn);
+        profileBtn = findViewById(R.id.profile_btn);
+        aboutBtn = findViewById(R.id.about_alc);
 
         aboutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        profilebtn.setOnClickListener(new View.OnClickListener() {
+        profileBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, MyProfile.class));
